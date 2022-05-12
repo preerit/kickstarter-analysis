@@ -13,25 +13,38 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 
 ## Analysis and Challenges
 ### Deliverable 1
-### Deliverable 1 Analysis
+#### Analysis
 
 - This deliverable thelps us visualize campaign outcomes in the parent category of "theater" based on launch date of the campaign.
 
-- Across months, there is no trend for canceled theater campaigns. However the highest number of successful campaign appear to be around May. Failed campaigns seem to occur in months from May to August and in October
-
 ![Theater_Outcomes_vs_Launch](https://github.com/preerit/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
-### Deliverable 1 Challenges
+- Across months, there is no trend for canceled theater campaigns. However the highest number of successful campaign appear to be around May. Failed campaigns seem to occur in months from May to August and in October
+
+#### Challenges
 
 - I did not encounter any challenges in Deliverable 1
 
 - However I think the year, month, quarter split that happens when you pull the dtes data into a pivot table could create some problems
 
 ### Deliverable 2
-### Deliverabel 2 Analysis
+#### Analysis
 
 - This deliverable is to help us visualize the percentage of successful, failed, and canceled plays based on the funding goal amount in the "plays" subcategory
 
 - Sum() and Countifs() functions were the two Excel formulae that had to be used
 
 ![Outcomes_vs_Goals](https://github.com/preerit/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+
+- As the funding goal amount increases, the % of successful campaigns decreases and failed campaigns increases. There are no canceled campaigns in "plays" subcategory
+
+#### Challenges
+
+- The challenge that I faced was with flagging the goal amounts as 'less than 1000', '1000 to 4999', etc. Given the number of rows, I did not do it manually. I created a 'from goal amount' and 'to goal amount' columns in the 'Outcomes Based on Goals' sheet. Then I used countifs() formula using "<=" and ">=" combinations of lower and upper limit of goal amount data
+
+---
+
+## Results
+
+### What are two conclusions you can draw about the Theater Outcomes by Launch Date?
+
