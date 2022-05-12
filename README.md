@@ -34,4 +34,4 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 
 - Sum() and Countifs() functions were the two Excel formulae that had to be used
 
-![Outcomes_vs_Goals](https://github.com/preerit/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![Outcomes_vs_Goals](https://github.com/preerit/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
